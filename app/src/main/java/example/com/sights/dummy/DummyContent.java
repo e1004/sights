@@ -30,7 +30,10 @@ public class DummyContent {
     static {
         DummyItem toomkirik = new DummyItem("12",
                 R.string.toomkirik_pealkiri, R.string.toomkirik_tekst);
+        DummyItem jaanikirik = new DummyItem("19",
+                R.string.jaanikirik_pealkiri, R.string.jaanikirik_tekst);
         addItem(toomkirik);
+        addItem(jaanikirik);
     }
 
     private static void addItem(DummyItem item) {
