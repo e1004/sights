@@ -29,9 +29,9 @@ public class DummyContent {
 
     static {
         DummyItem toomkirik = new DummyItem("12",
-                R.string.toomkirik_pealkiri, R.string.toomkirik_tekst);
+                R.string.toomkirik_pealkiri, R.string.toomkirik_tekst, R.drawable.toomkirik);
         DummyItem jaanikirik = new DummyItem("19",
-                R.string.jaanikirik_pealkiri, R.string.jaanikirik_tekst);
+                R.string.jaanikirik_pealkiri, R.string.jaanikirik_tekst, R.drawable.jaanikirik);
         addItem(toomkirik);
         addItem(jaanikirik);
     }
@@ -58,11 +58,17 @@ public class DummyContent {
         public final String id;
         public final int content;
         public final int details;
+        public final int image;
 
-        public DummyItem(String id, int content, int details) {
+        public DummyItem(String id, int content, int details, int image) {
             this.id = id;
             this.content = content;
             this.details = details;
+            this.image = image;
+        }
+
+        public int getImage() {
+            return image;
         }
 
     }
