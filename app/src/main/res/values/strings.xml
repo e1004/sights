@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">Sights</string>
+    <string name="app_name">Vaatamisväärsused</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="toomkirik_pealkiri">Tartu toomkirik</string>
     <string name="toomkirik_tekst">Tartu toomkirik on ainus kahe torniga keskaegne kirik ning üks suurimaid Eestis. Kiriku ehitustööd said alguse 13. sajandil. Kolme sajandi jooksul tellisgootikaehitist täiendati. Kirikutornid valmisid viimasena. Liivi sõjas sai hoone kannatada, mis põhjustas sealse kirikutegevuse lõppemise. Toomkiriku kahelt vaateplatvormilt avaneb vaade Tartule ja selle lähiümbrusele.</string>
     <string name="jaanikirik_pealkiri">Tartu Jaani kirik</string>
     <string name="jaanikirik_tekst">Tartu Jaani kirik on gooti stiilis kirik. See ehitati 14. sajandil, mistõttu on tegemist Eesti mõistes vanimate kirikute hulka kuuluva ehitisega. Kiriku terrakotaskulptuurid muudavad selle Euroopas omanäoliseks. Neid 700 aasta vanuseid skulptuure on umbes 1000. Hoone vaateplatvormid võimaldavad näha Tartu vanalinna.</string>
+    <string name="peahoone_pealkiri">Tartu Ülikooli peahoone</string>
+    <string name="peahoone_tekst">Tartut kutsutakse ülikoolilinnaks. Tartu Ülikooli peahoone sai valmis 1809. aastal. Selle projekteeris Johann Wilhelm Krause. Peahoone aula hea akustika ja avar ruum võimaldavad läbi viia pidulikke sündmusi ning nõupidamisi. Kõige esimene pidulik aktus toimus 3. juulil 1809.</string>
 </resources>

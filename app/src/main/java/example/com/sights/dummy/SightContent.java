@@ -13,30 +13,34 @@ import example.com.sights.R;
  * <p>
  * TODO: Replace all uses of this class before publishing your app.
  */
-public class DummyContent {
+public class SightContent {
 
     /**
      * An array of sample (dummy) items.
      */
-    public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
+    public static final List<Sight> ITEMS = new ArrayList<Sight>();
 
     /**
      * A map of sample (dummy) items, by ID.
      */
-    public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
+    public static final Map<String, Sight> ITEM_MAP = new HashMap<String, Sight>();
 
     private static final int COUNT = 25;
 
     static {
-        DummyItem toomkirik = new DummyItem("12",
+        Sight toomkirik = new Sight("12",
                 R.string.toomkirik_pealkiri, R.string.toomkirik_tekst, R.drawable.toomkirik);
-        DummyItem jaanikirik = new DummyItem("19",
+        Sight jaanikirik = new Sight("19",
                 R.string.jaanikirik_pealkiri, R.string.jaanikirik_tekst, R.drawable.jaanikirik);
+        Sight peahoone = new Sight("17",
+                R.string.peahoone_pealkiri, R.string.peahoone_tekst, R.drawable.peahoone);
         addItem(toomkirik);
+        addItem(peahoone);
         addItem(jaanikirik);
     }
 
-    private static void addItem(DummyItem item) {
+
+    private static void addItem(Sight item) {
         ITEMS.add(item);
         ITEM_MAP.put(item.id, item);
     }
@@ -54,13 +58,13 @@ public class DummyContent {
     /**
      * A dummy item representing a piece of content.
      */
-    public static class DummyItem {
+    public static class Sight {
         public final String id;
         public final int content;
         public final int details;
         public final int image;
 
-        public DummyItem(String id, int content, int details, int image) {
+        public Sight(String id, int content, int details, int image) {
             this.id = id;
             this.content = content;
             this.details = details;

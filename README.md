@@ -2,7 +2,8 @@
 
 ...
 
-## Allikad
+## Kasutatud kirjandus
 
-* Tartu toomkiriku pildi ja teksti allikas: https://www.puhkaeestis.ee/et/tartu-ulikooli-muuseumi-toomkiriku-tornid
-* Tartu Jaani kiriku pildi ja teksti allikas: https://www.puhkaeestis.ee/et/eelk-tartu-jaani-kirik
+* Tartu toomkiriku pilt ja tekst: https://www.puhkaeestis.ee/et/tartu-ulikooli-muuseumi-toomkiriku-tornid
+* Tartu Jaani kiriku pilt ja tekst: https://www.puhkaeestis.ee/et/eelk-tartu-jaani-kirik
+* Tartu Ülikooli peahoone tekst: https://www.puhkaeestis.ee/et/tartu-ulikooli-peahoone
