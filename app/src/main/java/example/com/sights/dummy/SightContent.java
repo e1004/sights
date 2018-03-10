@@ -50,6 +50,36 @@ public class SightContent {
                 R.string.botaanikaaed_pealkiri, R.string.botaanikaaed_tekst, R.drawable.botaanikaaed);
         Sight malestusmark = new Sight("21",
                 R.string.malestusmark_pealkiri, R.string.malestusmark_tekst, R.drawable.malestusmark);
+        Sight vanemuine = new Sight("1",
+                R.string.vanemuine_pealkiri, R.string.vanemuine_tekst, R.drawable.vanemuine);
+        Sight tolly = new Sight("2",
+                R.string.tolly_pealkiri, R.string.tolly_tekst, R.drawable.tolly);
+        Sight isa = new Sight("3",
+                R.string.isa_pealkiri, R.string.isa_tekst, R.drawable.isa);
+        Sight raekoja = new Sight("4",
+                R.string.raekoja_pealkiri, R.string.raekoja_tekst, R.drawable.raekoja);
+        Sight eller = new Sight("5",
+                R.string.eller_pealkiri, R.string.eller_tekst, R.drawable.eller);
+        Sight tahetorn = new Sight("7",
+                R.string.tahetorn_pealkiri, R.string.tahetorn_tekst, R.drawable.tahetorn);
+        Sight inglisild = new Sight("6",
+                R.string.inglisild_pealkiri, R.string.inglisild_tekst, R.drawable.inglisild);
+        Sight anatoomikum = new Sight("8",
+                R.string.anatoomikum_pealkiri, R.string.anatoomikum_tekst, R.drawable.anatoomikum);
+        Sight kuradisild = new Sight ("9",
+                R.string.kuradisild_pealkiri, R.string.kuradisild_tekst, R.drawable.kuradslid);
+        Sight riigikohus = new Sight("10",
+                R. string.riigikohus_pealkiri, R.string.riigikohus_tekst, R.drawable.riigikohus);
+        addItem(vanemuine);
+        addItem(tolly);
+        addItem(isa);
+        addItem(raekoja);
+        addItem(eller);
+        addItem(inglisild);
+        addItem(tahetorn);
+        addItem(anatoomikum);
+        addItem(kuradisild);
+        addItem(riigikohus);
         addItem(skytte);
         addItem(toomkirik);
         addItem(gustav);
