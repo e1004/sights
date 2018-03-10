@@ -28,6 +28,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="example.com.sights.ItemListActivity" />
         </activity>
+        <activity android:name=".Pop"></activity>
     </application>
 
 </manifest>

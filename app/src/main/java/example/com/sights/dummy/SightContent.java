@@ -30,21 +30,21 @@ public class SightContent {
     static {
         Sight toomkirik = new Sight("12",
                 R.string.toomkirik_pealkiri, R.string.toomkirik_tekst, R.drawable.toomkirik);
-        Sight jaanikirik = new Sight("19",
+        Sight jaanikirik = new Sight("18",
                 R.string.jaanikirik_pealkiri, R.string.jaanikirik_tekst, R.drawable.jaanikirik);
         Sight peahoone = new Sight("17",
                 R.string.peahoone_pealkiri, R.string.peahoone_tekst, R.drawable.peahoone);
         Sight skytte = new Sight("11",
                 R.string.skytte_pealkiri, R.string.skytte_tekst, R.drawable.skytte);
-        Sight gustav = new Sight("13",
+        Sight gustav = new Sight("16",
                 R.string.gustav_pealkiri, R.string.gustav_tekst, R.drawable.gustav);
-        Sight peterson = new Sight("14",
+        Sight peterson = new Sight("13",
                 R.string.peterson_pealkiri, R.string.peterson_tekst, R.drawable.peterson);
         Sight baer = new Sight("15",
                 R.string.baer_pealkiri, R.string.baer_tekst, R.drawable.baer);
-        Sight morgenstern = new Sight("16",
+        Sight morgenstern = new Sight("14",
                 R.string.morgenstern_pealkiri, R.string.morgenstern_tekst, R.drawable.morgenstern);
-        Sight treffner = new Sight("18",
+        Sight treffner = new Sight("19",
                 R.string.treffner_pealkiri, R.string.treffner_tekst, R.drawable.treffner);
         Sight botaanikaaed = new Sight("20",
                 R.string.botaanikaaed_pealkiri, R.string.botaanikaaed_tekst, R.drawable.botaanikaaed);
@@ -82,13 +82,13 @@ public class SightContent {
         addItem(riigikohus);
         addItem(skytte);
         addItem(toomkirik);
-        addItem(gustav);
         addItem(peterson);
-        addItem(baer);
         addItem(morgenstern);
+        addItem(baer);
+        addItem(gustav);
         addItem(peahoone);
-        addItem(treffner);
         addItem(jaanikirik);
+        addItem(treffner);
         addItem(botaanikaaed);
         addItem(malestusmark);
     }
